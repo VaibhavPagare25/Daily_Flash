@@ -1,7 +1,5 @@
-import 'package:daily_flash/Flash01/flash01_3.dart';
-import 'package:daily_flash/Flash01/flash01_4.dart';
+import 'package:daily_flash/Flash01/flash01_5.dart';
 import 'package:flutter/material.dart';
-import 'Flash01/flash01_1.dart';
 
 void main() {
   runApp(const MainApp());
@@ -16,7 +14,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: FlashOne4(),
+          child: FlashOne5(),
         ),
       ),
     );
