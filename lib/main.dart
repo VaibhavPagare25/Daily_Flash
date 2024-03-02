@@ -1,3 +1,4 @@
+import 'package:daily_flash/Flash01/flash01_2.dart';
 import 'package:flutter/material.dart';
 import 'Flash01/flash01_1.dart';
 
@@ -14,7 +15,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: FlashOne1(),
+          child: FlashOne2(),
         ),
       ),
     );

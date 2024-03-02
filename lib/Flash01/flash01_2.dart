@@ -5,6 +5,17 @@ class FlashOne2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("FlashOne2"),
+        backgroundColor: Colors.deepPurple.shade300,
+        leading: const Icon(Icons.draw_outlined),
+        actions: const [
+          Icon(Icons.favorite),
+          Icon(Icons.send),
+          Icon(Icons.bookmark),
+        ],
+      ),
+    );
   }
 }
