@@ -1,6 +1,5 @@
-import 'package:daily_flash/Flash02/flash02_1.dart';
-import 'package:daily_flash/Flash02/flash02_2.dart';
-import 'package:daily_flash/Flash02/flash02_3.dart';
+import 'package:daily_flash/Flash02/flash02_4.dart';
+import 'package:daily_flash/Flash02/flash02_5.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,11 +11,11 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: FlashTwo3(),
+          child: FlashTwo5(),
         ),
       ),
     );
