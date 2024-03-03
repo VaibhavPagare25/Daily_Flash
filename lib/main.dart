@@ -1,4 +1,6 @@
-import 'package:daily_flash/Flash01/flash01_5.dart';
+import 'package:daily_flash/Flash02/flash02_1.dart';
+import 'package:daily_flash/Flash02/flash02_2.dart';
+import 'package:daily_flash/Flash02/flash02_3.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +16,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: FlashOne5(),
+          child: FlashTwo3(),
         ),
       ),
     );
