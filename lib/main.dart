@@ -1,3 +1,4 @@
+import 'package:flash/Flash04/flash04_2.dart';
 import 'package:flutter/material.dart';
 import 'Flash04/flash04_1.dart';
 
@@ -12,7 +13,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FlashFour1(),
+      home: FlashFour2(),
     );
   }
 }
