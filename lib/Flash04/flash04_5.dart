@@ -8,6 +8,9 @@ class FlashFour5 extends StatefulWidget {
 }
 
 class _FlashFour5State extends State<FlashFour5> {
+  Color buttonColor = Colors.green;
+  bool buttonColorFalg = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,9 +21,19 @@ class _FlashFour5State extends State<FlashFour5> {
         backgroundColor: Colors.deepPurple.shade300,
         centerTitle: true,
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: const Text("Add"),
+      floatingActionButton: Center(
+        child: GestureDetector(
+          onLongPress: () {
+            setState(() {
+              buttonColorFalg = !buttonColorFalg;
+            });
+          },
+          child: FloatingActionButton(
+            onPressed: () {},
+            backgroundColor: buttonColorFalg ? Colors.purple : Colors.green,
+            child: const Text("Add"),
+          ),
+        ),
       ),
     );
   }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hovering/hovering.dart';
 
 class FlashFour4 extends StatefulWidget {
   const FlashFour4({super.key});
@@ -20,6 +21,7 @@ class _FlashFour4State extends State<FlashFour4> {
       ),
       floatingActionButton: FloatingActionButton(
         hoverColor: Colors.orange,
+        backgroundColor: Colors.green.shade100,
         onPressed: () {},
         child: const Text("Add"),
       ),
