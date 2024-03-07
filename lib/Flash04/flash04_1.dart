@@ -23,15 +23,15 @@ class FlashFour1 extends StatelessWidget {
               shape: MaterialStatePropertyAll(
                 RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(
-                    20,
+                    10,
                   ),
                 ),
               ),
-              shadowColor: MaterialStatePropertyAll(
-                Colors.deepPurple,
+              shadowColor: const MaterialStatePropertyAll(
+                Colors.red,
               ),
-              elevation: MaterialStatePropertyAll(
-                10,
+              elevation: const MaterialStatePropertyAll(
+                20,
               ),
             ),
             onPressed: () {},
