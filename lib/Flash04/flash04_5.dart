@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class FlashFour4 extends StatefulWidget {
-  const FlashFour4({super.key});
+class FlashFour5 extends StatefulWidget {
+  const FlashFour5({super.key});
 
   @override
-  State<FlashFour4> createState() => _FlashFour4State();
+  State<FlashFour5> createState() => _FlashFour5State();
 }
 
-class _FlashFour4State extends State<FlashFour4> {
+class _FlashFour5State extends State<FlashFour5> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +19,6 @@ class _FlashFour4State extends State<FlashFour4> {
         centerTitle: true,
       ),
       floatingActionButton: FloatingActionButton(
-        hoverColor: Colors.orange,
         onPressed: () {},
         child: const Text("Add"),
       ),
