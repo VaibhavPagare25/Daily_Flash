@@ -8,6 +8,11 @@ import 'package:flash/Flash06/flash06_2.dart';
 import 'package:flash/Flash06/flash06_3.dart';
 import 'package:flash/Flash06/flash06_4.dart';
 import 'package:flash/Flash06/flash06_5.dart';
+import 'package:flash/Flash07/flash07_1.dart';
+import 'package:flash/Flash07/flash07_2.dart';
+import 'package:flash/Flash07/flash07_3.dart';
+import 'package:flash/Flash07/flash07_4.dart';
+import 'package:flash/Flash07/flash07_5.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +26,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FlashSix5(),
+      home: FlashSeven5(),
     );
   }
 }
