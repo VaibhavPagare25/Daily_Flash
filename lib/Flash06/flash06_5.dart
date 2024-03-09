@@ -29,9 +29,11 @@ class _FlashSix5State extends State<FlashSix5> {
           children: [
             GestureDetector(
               onTap: () {
-                setState(() {
-                  container1 = !container1;
-                });
+                setState(
+                  () {
+                    container1 = !container1;
+                  },
+                );
               },
               child: Container(
                 height: 100,
