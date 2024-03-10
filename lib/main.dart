@@ -1,3 +1,4 @@
+import 'package:flash/Flash05/flash05_5.dart';
 import 'package:flash/Flash07/flash07_5.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FlashSeven5(),
+      home: FlashFive5(),
     );
   }
 }
