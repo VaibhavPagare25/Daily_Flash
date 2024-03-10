@@ -18,7 +18,7 @@ class _FlashSix5State extends State<FlashSix5> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "FlashSix4",
+          "FlashSix5",
         ),
         backgroundColor: Colors.deepPurple.shade300,
         centerTitle: true,
